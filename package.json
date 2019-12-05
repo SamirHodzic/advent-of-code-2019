@@ -1,0 +1,13 @@
+{
+	"name": "advent-of-code-2019",
+  "author": "SamirH",
+  "repository": {
+    "url": "https://github.com/SamirHodzic/advent-of-code-2019"
+  },
+	"scripts": {
+		"day1": "node day1/solution.js"
+	},
+	"engines": {
+		"node": "6.0.0"
+  }
+}
