@@ -10,11 +10,14 @@ function calc(x) {
 }
 
 function solve(func) {
-  return input.split("\n").map(x => {
-    return func(x);
-  }).reduce((a, b) => {
-    return a + b;
-  });
+  return input
+    .split('\n')
+    .map(x => {
+      return func(x);
+    })
+    .reduce((a, b) => {
+      return a + b;
+    });
 }
 
 console.log(`Problem 1 solution: ${solve(floor)}`);
